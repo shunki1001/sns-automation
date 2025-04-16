@@ -2,3 +2,7 @@
 .env
 .env.yaml
 *.json
+
+.terraform/
+.terraform.lock.hcl
+*.zip
