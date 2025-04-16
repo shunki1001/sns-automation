@@ -1,4 +1,3 @@
-# %%
 import os
 
 from dotenv import load_dotenv
@@ -7,10 +6,8 @@ load_dotenv(".env")
 
 import tweepy
 
-# from flask import Request
 
-
-def post_to_twitter(text: str):
+def post_x(text: str):
     # Twitter API認証情報
     api_key = os.environ.get("X_API_KEY")
     api_secret = os.environ.get("X_API_SECRET")
