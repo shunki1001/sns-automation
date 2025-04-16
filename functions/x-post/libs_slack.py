@@ -6,7 +6,7 @@ import requests
 
 def send_chat_slack(text: str):
     requests.post(
-        os.environ["SLACKE_WEBHOOK"],
+        os.environ["SLACK_WEBHOOK"],
         data=json.dumps(
             {
                 # メッセージ
